@@ -69,6 +69,22 @@ export default function TabProjects() {
         ]
       }
     },
+    {
+      title: '1D1W (1 Day 1 Website)',
+      desc: 'Aplikasi web pengacak kategori otomatis berbasis React 19 dan Tailwind CSS v4 untuk mengatasi decision fatigue pada tantangan 1 Day 1 Website melalui 100 kategori terkurasi, algoritma tanpa repetisi, dan antarmuka monokromik yang fluid.',
+      tech: 'React.js (Vite), Tailwind CSS, Framer Motion',
+      link: 'https://github.com/Rven24/1Day1Website',
+      linkLabel: '[source]',
+      details: {
+        problem: 'Kelelahan mengambil keputusan (decision fatigue) saat memilih ide atau kategori website harian sering kali menghambat konsistensi dalam menjalankan tantangan 1 Day 1 Website.',
+        solution: 'Membangun aplikasi web pengacak otomatis berbasis React 19 dan Tailwind CSS v4 dengan sistem distribusi seragam 100 kategori tanpa repetisi berurutan.',
+        highlights: [
+          '100 kategori website terkurasi dengan pengacakan adil 1%',
+          'Mikro-interaksi fluid motion dan transisi teks sinematik',
+          'Integrasi Clipboard API untuk salin teks kategori cepat'
+        ]
+      }
+    },
   ];
 
   return (
