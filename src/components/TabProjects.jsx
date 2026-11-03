@@ -40,7 +40,7 @@ export default function TabProjects() {
       title: 'Digital Edupage',
       desc: 'Frontend website profil resmi institusi pendidikan dengan desain modern, minimalis monokrom, serta siap diintegrasikan dengan backend CMS.',
       tech: 'React.js (Vite), Tailwind CSS',
-      link: 'https://github.com/VyannOrg/digital-edupage',
+      link: 'https://github.com/Rven24/DigitalEdupage',
       linkLabel: '[source]',
       soonfeature: '(In Production) Pengembangan saat ini berfokus pada penambahan sistem manajemen konten dinamis, fitur pencarian global, dan pengoptimalan Dark Mode.',
       details: {
@@ -57,7 +57,7 @@ export default function TabProjects() {
       title: 'Kotakin App',
       desc: 'Sistem manajemen inventaris gudang berbasis Laravel & Filament v5 dengan proteksi stok anti-minus otomatis, hak akses bertingkat, dan generator QR Code SKU instan.',
       tech: 'Laravel, Alpine.js, Blade, Tailwind CSS, SQLite, Filament v5',
-      link: 'https://github.com/Rven24/Kotakin-App',
+      link: 'https://github.com/Rven24/Kotakin',
       linkLabel: '[source]',
       details: {
         problem: 'Pengelolaan stok barang gudang skala kecil-menengah sering mengalami human error seperti stok minus dan pencatatan manual yang lambat.',
