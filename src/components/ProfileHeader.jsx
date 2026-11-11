@@ -1,6 +1,6 @@
 export default function ProfileHeader() {
   const stats = [
-    { label: 'STATUS', value: 'OPEN TO WORK' },
+    { label: 'STATUS', value: 'WORK IN BROWN CINNAMONS GROUP' },
     { label: 'LOCATION', value: 'LUMAJANG, ID' },
     { label: 'FOCUS', value: 'WEB & GAME DEV' },
   ];
