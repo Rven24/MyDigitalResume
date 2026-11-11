@@ -85,6 +85,22 @@ export default function TabProjects() {
         ]
       }
     },
+    {
+      title: 'KasirKu POS',
+      desc: 'Sistem Kasir & Manajemen Inventaris modern berkecepatan tinggi dengan arsitektur split-screen cashier UX, pencetakan struk thermal 58/80mm, QRIS dinamis real-time, antrean gantung transaksi, serta analitik penjualan komprehensif.',
+      tech: 'Laravel 13, Vue.js 3, Pinia, Tailwind CSS v4',
+      link: 'https://github.com/Rven24/kasir-pos',
+      linkLabel: '[source]',
+      details: {
+        problem: 'Efisiensi transaksi kasir ritel/F&B yang lambat serta pencatatan stok dan laporan omzet harian yang sering tidak akurat atau terpisah-pisah.',
+        solution: 'Mengembangkan sistem POS full-stack modern berbasis RESTful API Laravel 13 dan Vue 3 Composition API yang responsif, dilengkapi pintasan keyboard instan dan manajemen antrean multi-tab.',
+        highlights: [
+          'Split-Screen Cashier UX dengan integrasi Hardware Barcode Scanner & Quick Keys (F2, F4, F8, ESC)',
+          'Cetak Struk Thermal 58mm/80mm instan & Generator QRIS Dinamis standar EMVCo dengan timer countdown',
+          'Manajemen Stok Opname, Peringatan Stok Menipis (Low Stock Alert), dan Grafik Analitik Omzet Real-time'
+        ]
+      }
+    }
   ];
 
   return (
