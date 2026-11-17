@@ -100,6 +100,22 @@ export default function TabProjects() {
           'Manajemen Stok Opname, Peringatan Stok Menipis (Low Stock Alert), dan Grafik Analitik Omzet Real-time'
         ]
       }
+    },
+    {
+      title: 'Vlow Vault',
+      desc: 'Aplikasi manajemen produktivitas berbasis Kanban untuk menyelaraskan target jangka pendek hingga tahunan dalam satu ruang kerja privat, dilengkapi refleksi progres, daily streak, dan berbagi vault read-only.',
+      tech: 'Next.js, React, TypeScript, Tailwind CSS, Supabase, PostgreSQL',
+      link: 'https://github.com/Nabastala-Biru/vlow-app',
+      linkLabel: '[source]',
+      details: {
+        problem: 'Kesulitan menyelaraskan tugas harian yang kecil dengan visi dan target jangka panjang (kuartalan/tahunan), serta minimnya ruang refleksi terstruktur untuk mencatat kendala dan materi yang perlu diriset saat belajar atau bekerja.',
+        solution: 'Membangun aplikasi web full-stack privat berbasis multi-horizon Kanban dengan arsitektur modern Next.js App Router dan Supabase, menghubungkan tugas secara hierarki dari harian hingga tahunan serta menyediakan modul catatan evaluasi terdedikasi.',
+        highlights: [
+          'Multi-Horizon Kanban Board (Harian, Mingguan, Bulanan, Kuartalan, Semesteran, Tahunan) dengan interaksi drag-and-drop & mobile swipe gesture',
+          'Modul Catatan Progres & Evaluasi terpisah per kartu untuk mencatat hal yang sudah dilakukan dan kendala yang butuh solusi',
+          'Sistem Pelacakan Daily Streak, Rekap Tahunan otomatis, serta fitur Berbagi Vault Privat berbasis token (Read-Only)'
+        ]
+      }
     }
   ];
 
