@@ -37,6 +37,22 @@ export default function TabProjects() {
       }
     },
     {
+      title: 'Kora Travel',
+      desc: 'Landing page bergaya editorial minimalis untuk agensi wisata privat, dilengkapi pratinjau rute perjalanan interaktif, kalkulator estimasi biaya real-time, dan formulir pemesanan terintegrasi.',
+      tech: 'Next.js, React, TypeScript, Tailwind CSS, Supabase',
+      link: 'https://kora-two-psi.vercel.app/',
+      linkLabel: '[demo]',
+      details: {
+        problem: 'Agensi perjalanan privat sering kehilangan calon klien potensial akibat situs web yang lambat, informasi tarif dasar yang tidak transparan, dan proses penyaringan pertanyaan awal yang masih bergantung pada pesan manual.',
+        solution: 'Membangun landing page monokrom berarsitektur modular menggunakan Next.js App Router dan Supabase yang mengubah pengunjung menjadi prospek terukur lewat simulasi biaya mandiri dan formulir reservasi.',
+        highlights: [
+          'Interactive Itinerary Preview untuk beralih antar-kategori paket ekspedisi dan rincian rute harian tanpa memuat ulang halaman',
+          'Dynamic Trip Cost Estimator dengan kontrol slider jumlah peserta, durasi hari, dan kelas akomodasi yang menghitung estimasi biaya secara real-time',
+          'Formulir permintaan pemesanan yang otomatis meneruskan hasil kalkulasi paket ke database Supabase dengan aturan keamanan Row Level Security (RLS)'
+        ]
+      }
+    },
+    {
       title: 'Digital Edupage',
       desc: 'Frontend website profil resmi institusi pendidikan dengan desain modern, minimalis monokrom, serta siap diintegrasikan dengan backend CMS.',
       tech: 'React.js (Vite), Tailwind CSS',
